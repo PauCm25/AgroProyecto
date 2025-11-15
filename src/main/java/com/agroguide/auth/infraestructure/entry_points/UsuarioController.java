@@ -48,6 +48,7 @@ public class UsuarioController {
            return ResponseEntity.ok(error);
         }
     }
+    //PRUEBAAAA
     @PostMapping("/login")
     public ResponseEntity<LoginResponse> login(@RequestBody UsuarioData usuarioData){
         try {
